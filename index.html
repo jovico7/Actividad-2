@@ -9,9 +9,11 @@
     <link rel="shortcut icon" href="img/github-alt-brands.svg">
 </head>
 
-<body>
+<body style="padding-left: 50px;padding-right: 50px;background-image: url(./css/img/montana.png);">
     <ol><b>¿Qué es Git?</b>
-        <p>Es un software de versiones gratis y de código abierto. Fue creado por Linus Torvalds en 2005. Esta herramienta es un sistema de control de versiones que fue inicialmente desarrollado para trabajar con varios desarrolladores en el núcleo de Linux.</p>
+        <!--Estilos en linea:
+            Agregamos estilos en linea con el atributo style-->
+        <p style="color: rgba(0, 0, 255); font-size: 30px; padding: 10px 20px;">Es un software de versiones gratis y de código abierto. Fue creado por Linus Torvalds en 2005. Esta herramienta es un sistema de control de versiones que fue inicialmente desarrollado para trabajar con varios desarrolladores en el núcleo de Linux.</p>
         <p>Esto significa básicamente que Git es un rastreador de contenido, en particular para almacenar código.</p>
 
         <p>Los proyectos de la vida real generalmente tienen múltiples desarrolladores trabajando en paralelo. Así que necesitan un sistema de control de versiones como Git para asegurarse de que no hay conflictors de código entre ellos.</p>
@@ -20,11 +22,14 @@
 
         El sistema de ramas en Git permite a los desarrolladores trabajar individualmente en una tarea. Por ejemplo:
 
-        <ul>
-            <p>una rama -> una tarea</p>
-        </ul>
-        <ul>
-            <p>una rama -> un desarrollador</p>
+        <ul style="background-color:rgb(0,255,0,0.5)">
+            <li>
+                <p style="color: yellow;">una rama -> una tarea</p>
+            </li>
+
+            <li>
+                <p style="color: red;">una rama -> un desarrollador</p>
+            </li>
         </ul>
 
         <p>Básicamente, se puede pensar en Git como una aplicación de software pequeña que controla tu código base, si eres un desarrollador.</p>
